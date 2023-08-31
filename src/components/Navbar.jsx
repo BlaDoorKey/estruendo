@@ -31,19 +31,14 @@ const Navbar = () => {
             Inicio
           </Link>
           <Link
-            to="/products"
+            to="/eventos"
             className="text-white hover:text-gray-300 transition duration-300 ease-in-out">
-            Productos
-          </Link>
-          <Link
-            to="/services"
-            className="text-white hover:text-gray-300 transition duration-300 ease-in-out">
-            Servicios
+            Eventos
           </Link>
           <Link
             to="/contact"
             className="text-white hover:text-gray-300 transition duration-300 ease-in-out">
-            Contactanos
+            Contacto
           </Link>
         </div>
         <div className="md:hidden">
@@ -73,22 +68,16 @@ const Navbar = () => {
                 Inicio
               </Link>
               <Link
-                to="/products"
+                to="/eventos"
                 className="block text-white p-4 border-b border-gray-700 hover:bg-gray-700 transition duration-300 ease-in-out"
                 onClick={toggleMobileMenu}>
-                Productos
-              </Link>
-              <Link
-                to="/services"
-                className="block text-white p-4 border-b border-gray-700 hover:bg-gray-700 transition duration-300 ease-in-out"
-                onClick={toggleMobileMenu}>
-                Servicios
+                Eventos
               </Link>
               <Link
                 to="/contact"
                 className="block text-white p-4 hover:bg-gray-700 transition duration-300 ease-in-out"
                 onClick={toggleMobileMenu}>
-                Contactanos
+                Contacto
               </Link>
             </div>
           )}

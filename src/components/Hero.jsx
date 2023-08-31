@@ -26,12 +26,12 @@ const Hero = () => {
             Eventos y fiestas memorables.
           </p>
           <button className="mt-6 bg-red-500 hover:bg-red-600 text-white py-2 px-6 rounded-lg shadow-md">
-            Descubrelo aqui
+            Organicemos tu evento.
           </button>
         </div>
         <div className="absolute bottom-0 left-0 p-6">
           <p className="text-white text-sm">
-            &copy; 2023 Estruendo Organización. All rights reserved.
+            &copy; 2023 Estruendo Organización. Todos los derechos reservados.
           </p>
         </div>
       </div>
@@ -39,9 +39,9 @@ const Hero = () => {
         <div className="container mx-auto text-center w-1/2">
           <h2 className="text-3xl font-semibold mb-2">¿Quíenes somos?</h2>
           <p className="text-lg text-gray-700">
-            Somos un equipo apasionado de entusiastas de los eventos dedicados a hacer realidad su
-            visión. Con años de experiencia y un gran ojo para los detalles, convertimos eventos
-            ordinarios en recuerdos extraordinarios.
+            SOMOS UNA ORGANIZACION CON UNA EXPERIENCIA DE 35 AÑOS EN LA ATENCION DE EVENTOS,
+            INTEGRANDO CON EL TIEMPO TODOS LOS ELEMENTOS NECESARIOS PARA OTORGAR EN NUESTRO SERVICIO
+            UN MAYOR REALCE A SU CELEBRACION
           </p>
         </div>
       </div>

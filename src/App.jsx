@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import AudioPlayer from "./components/AudioPlayer";
+import Eventos from "./components/Eventos";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -18,12 +19,8 @@ function App() {
             element={<Hero />}
           />
           <Route
-            path="/products"
-            element={<Hero />}
-          />
-          <Route
-            path="/services"
-            element={<Hero />}
+            path="/eventos"
+            element={<Eventos />}
           />
           <Route
             path="/contact"
@@ -31,7 +28,6 @@ function App() {
           />
         </Routes>
       </div>
-      <Hero />
     </Router>
   );
 }
