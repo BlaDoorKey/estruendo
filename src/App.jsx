@@ -11,6 +11,16 @@ function App() {
   return (
     <Router basename="/">
       <div className="min-h-screen bg-[url('./components/assets/localop.jpg')] bg-cover bg-repeat">
+        <video
+          className="w-full h-full object-cover fixed top-0 left-0 -z-10"
+          autoPlay
+          loop
+          muted>
+          <source
+            src="partytest.mp4"
+            type="video/mp4"
+          />
+        </video>
         <Navbar />
         <Routes>
           <Route

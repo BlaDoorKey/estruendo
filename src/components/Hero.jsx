@@ -4,16 +4,7 @@ const Hero = () => {
   return (
     <>
       <div className="relative h-screen overflow-hidden">
-        <video
-          className="w-full h-full object-cover fixed top-0 left-0 -z-10"
-          autoPlay
-          loop
-          muted>
-          <source
-            src="partytest.mp4"
-            type="video/mp4"
-          />
-        </video>
+        
         <div className="absolute inset-0 flex flex-col items-center justify-center bg-black bg-opacity-50">
           <img
             src="logo.png"
@@ -39,9 +30,9 @@ const Hero = () => {
         <div className="container mx-auto text-center w-1/2">
           <h2 className="text-3xl font-semibold mb-2">¿Quíenes somos?</h2>
           <p className="text-lg text-gray-700">
-            SOMOS UNA ORGANIZACION CON UNA EXPERIENCIA DE 35 AÑOS EN LA ATENCION DE EVENTOS,
-            INTEGRANDO CON EL TIEMPO TODOS LOS ELEMENTOS NECESARIOS PARA OTORGAR EN NUESTRO SERVICIO
-            UN MAYOR REALCE A SU CELEBRACION
+            Somos una organización con una experiencia de 35 años en la atención de eventos,
+            integrando con el tiempo todos los elementos necesarios para otorgar en nuestro servicio
+            un mayor realce a su celebración.
           </p>
         </div>
       </div>
@@ -50,9 +41,9 @@ const Hero = () => {
           <h2 className="text-3xl font-semibold mb-2">Servicios</h2>
           <p className="text-lg text-gray-700">
             Desde el diseño conceptual hasta la ejecución, ofrecemos una gama de servicios
-            personalizados para satisfacer sus necesidades. necesidades del evento. Ya sean bodas,
-            reuniones corporativas o fiestas privadas, tenemos la experiencia para hacerlo
-            extraordinario.
+            personalizados para satisfacer sus <necesidade></necesidade>s. necesidades del evento.
+            Ya sean bodas, reuniones corporativas o fiestas privadas, tenemos la experiencia para
+            hacerlo extraordinario.
           </p>
         </div>
       </div>
