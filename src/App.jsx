@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import AudioPlayer from "./components/AudioPlayer";
 import Eventos from "./components/Eventos";
+import Contact from "./components/Contact";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -34,7 +35,7 @@ function App() {
           />
           <Route
             path="/contact"
-            element={<Hero />}
+            element={<Contact />}
           />
         </Routes>
       </div>
