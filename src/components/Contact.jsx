@@ -21,7 +21,7 @@ const Contact = () => {
             WhatsApp
           </a>
           <a
-            href="https://www.facebook.com/fotomediaexpress"
+            href="https://www.facebook.com/estruendoaudiovosuales"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center justify-center px-6 py-3 border-2 rounded-md bg-blue-500 text-white hover:bg-blue-600 transition duration-300">
@@ -33,7 +33,7 @@ const Contact = () => {
             Facebook
           </a>
           <a
-            href="mailto:photomediaexpres@gmail.com"
+            href="mailto:estruendo_audiovisuales@hotmail.com"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center justify-center px-6 py-3 border-2 rounded-md bg-blue-700 text-white hover:bg-blue-800 transition duration-300">
@@ -43,6 +43,18 @@ const Contact = () => {
               className="w-8 h-8 mr-2"
             />
             Correo
+          </a>
+          <a
+            href="https://www.instagram.com/estruendoaudiovisuales/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center justify-center px-6 py-3 border-2 rounded-md bg-blue-700 text-white hover:bg-blue-800 transition duration-300">
+            <img
+              src="logoig.png"
+              alt="Gmail"
+              className="w-8 h-8 mr-2"
+            />
+            Instagram
           </a>
         </div>
         <div className="w-full relative">

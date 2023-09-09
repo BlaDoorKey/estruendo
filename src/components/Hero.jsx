@@ -8,7 +8,7 @@ const Hero = () => {
           <img
             src="logo.png"
             alt="Party Image"
-            className="mx-auto w-1/2 md:w-1/3 lg:w-1/4 mb-6 hover:animate-ping ease-in"
+            className="mx-auto w-1/2 md:w-1/3 lg:w-1/4 mb-6 ease-in"
           />
           <h1 className="text-white text-5xl font-semibold">Estruendo Organización</h1>
           <p className="text-white text-lg mt-4 max-w-md text-center">
@@ -29,7 +29,7 @@ const Hero = () => {
           </p>
         </div>
       </div>
-      <div className="bg-white/50 py-12">
+      <div className="bg-white/70 py-12">
         <div className="container mx-auto text-center w-1/2">
           <h2 className="text-3xl font-semibold mb-2 text-red-600">¿Quíenes somos?</h2>
           <p className="text-lg text-black italic">
@@ -39,7 +39,7 @@ const Hero = () => {
           </p>
         </div>
       </div>
-      <div className="bg-gray-100/50 py-12">
+      <div className="bg-gray-100/70 py-12">
         <div className="container mx-auto text-center w-1/2">
           <h2 className="text-3xl font-semibold mb-2 text-red-600">Servicios</h2>
           <p className="text-lg text-black italic">
@@ -50,7 +50,7 @@ const Hero = () => {
           </p>
         </div>
       </div>
-      <div className="bg-white/50 py-12">
+      <div className="bg-white/70 py-12">
         <div className="container mx-auto text-center w-1/2">
           <h2 className="text-3xl font-semibold mb-2 text-red-600">Somos la mejor opción</h2>
           <p className="text-lg text-black italic">

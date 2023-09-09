@@ -28,9 +28,6 @@ const Eventos = () => {
               <li>Capacidad de salón</li>
               {/* Add more package details */}
             </ul>
-            <button className="mt-6 bg-red-500 hover:bg-red-600 text-white py-3 px-6 rounded-full">
-              Ver Detalles
-            </button>
           </div>
 
           {/* Package 2 */}
@@ -42,9 +39,6 @@ const Eventos = () => {
               <li>Estrobos</li>
               {/* Add more package details */}
             </ul>
-            <button className="mt-6 bg-red-500 hover:bg-red-600 text-white py-3 px-6 rounded-full">
-              Ver Detalles
-            </button>
           </div>
 
           {/* Package 3 */}
@@ -56,9 +50,6 @@ const Eventos = () => {
               <li>Proyección de pantalla grande.</li>
               {/* Add more package details */}
             </ul>
-            <button className="mt-6 bg-red-500 hover:bg-red-600 text-white py-3 px-6 rounded-full">
-              Ver Detalles
-            </button>
           </div>
         </div>
 
