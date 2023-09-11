@@ -20,8 +20,8 @@ const Eventos = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Package 1 */}
-          <div className="border border-gray-300 p-6 rounded-xl shadow-lg">
-            <h3 className="text-2xl font-semibold mb-4 text-green-600">Audio</h3>
+          <div className="border border-gray-300 p-6 rounded-xl shadow-lg bg-gradient-to-tr from-pink-600 via-neutral-500 to-violet-400">
+            <h3 className="text-2xl font-semibold mb-4 text-black">Audio 🔊</h3>
             <ul className="text-white">
               <li>Equipo de Audio adaptable</li>
               <li>Bocinas de alta calidad</li>
@@ -31,8 +31,8 @@ const Eventos = () => {
           </div>
 
           {/* Package 2 */}
-          <div className="border border-gray-300 p-6 rounded-xl shadow-lg">
-            <h3 className="text-2xl font-semibold mb-4 text-green-600">Iluminación</h3>
+          <div className="border border-gray-300 p-6 rounded-xl shadow-lg bg-gradient-to-tr from-pink-600 via-neutral-500 to-violet-400">
+            <h3 className="text-2xl font-semibold mb-4 text-black">Iluminación 💡</h3>
             <ul className="text-white">
               <li>Moving Head, Scanner Intelligent</li>
               <li>Maquina de humo, burbujas y confetti</li>
@@ -42,8 +42,8 @@ const Eventos = () => {
           </div>
 
           {/* Package 3 */}
-          <div className="border border-gray-300 p-6 rounded-xl shadow-lg">
-            <h3 className="text-2xl font-semibold mb-4 text-green-600">Filmación</h3>
+          <div className="border border-gray-300 p-6 rounded-xl shadow-lg bg-gradient-to-tr from-pink-600 via-neutral-500 to-violet-400">
+            <h3 className="text-2xl font-semibold mb-4 text-black">Filmación 🎥</h3>
             <ul className="text-white">
               <li>Fotografía</li>
               <li>Ampliaciones</li>
@@ -72,29 +72,30 @@ const Eventos = () => {
           </div>
         </div>
 
-        <div className="mt-12">
-          <h2 className="text-4xl font-bold mb-8 text-green-500">Tipos de Eventos</h2>
-          <p className="text-white text-lg">
-            Ofrecemos servicios para una amplia variedad de eventos, incluyendo:
-          </p>
-          <ul className="text-white text-lg mt-4">
-            <li>Eventos Sociales</li>
-            <li>Eventos Corporativos</li>
-            {/* Add more event types */}
-          </ul>
-        </div>
-
-        <div className="mt-12">
-          <h2 className="text-4xl font-bold mb-8 text-green-500">Servicios Adicionales</h2>
-          <p className="text-white text-lg">
-            Además de nuestros paquetes, también ofrecemos servicios adicionales, como:
-          </p>
-          <ul className="text-white text-lg mt-4">
-            <li>Servicio de Sonorización</li>
-            <li>Renta de Proyectores</li>
-            <li>Servicios de Video y Fotografía</li>
-            {/* Add more additional services */}
-          </ul>
+        <div className="grid max-w-full place-items-center ">
+          <div className="mt-12 outline-dashed outline-red-600 p-4">
+            <h2 className="text-4xl font-bold mb-8 text-green-500">Tipos de Eventos</h2>
+            <p className="text-white text-lg">
+              Ofrecemos servicios para una amplia variedad de eventos, incluyendo:
+            </p>
+            <ul className="text-white text-lg mt-4">
+              <li>Eventos Sociales</li>
+              <li>Eventos Corporativos</li>
+              {/* Add more event types */}
+            </ul>
+          </div>
+          <div className="mt-12 outline-dashed outline-red-600 p-4">
+            <h2 className="text-4xl font-bold mb-8 text-green-500">Servicios Adicionales</h2>
+            <p className="text-white text-lg">
+              Además de nuestros paquetes, también ofrecemos servicios adicionales, como:
+            </p>
+            <ul className="text-white text-lg mt-4">
+              <li>Servicio de Sonorización</li>
+              <li>Renta de Proyectores</li>
+              <li>Servicios de Video y Fotografía</li>
+              {/* Add more additional services */}
+            </ul>
+          </div>
         </div>
       </div>
     </section>
